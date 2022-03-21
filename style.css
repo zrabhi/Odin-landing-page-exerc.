@@ -1,6 +1,5 @@
 body, html{
     height: 100%;
-    width: 100%;
 }
 body{
     background: #ffd181;
@@ -8,17 +7,18 @@ body{
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     /* width: 100%; */
 }
 .header{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #000000;
     margin: 0;
-    gap:70px;
+    /* padding-right: 300px; */
+    /* max-width: 100%; */
     /* width: 100%; */
 }
 a{
@@ -65,6 +65,7 @@ ul{
     background: #111;
     color:gray;
     padding: 100px 32px;
+    margin-right: 1px;
     font-size: 48px;
     font-weight: bold;
     text-decoration-line: line-through;
@@ -74,17 +75,17 @@ ul{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     margin: 10px;
     padding: 5px;
-    padding-bottom: 200px;
     /* gap: 4px; */
 }
 .first-column{
     padding: 10px 10px;
     display: flex;
     flex-direction: row;
+    /* grid-template-rows: 16px; */
     margin: 0;
     background:blanchedalmond;
     align-items: center;
@@ -149,18 +150,13 @@ ul{
 .footer{
     color:white;
     display: flex;
-    /* margin-top: 18px; */
     background: #111;
     padding: 36px 32px;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
 
 }
 .card-one{
-    /* flex: 1 1 auto; */
     display: flex;
-    /* background: blue; */
-    /* flex-direction: column; */
 }
 
